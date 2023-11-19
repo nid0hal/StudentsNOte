@@ -52,7 +52,7 @@ function validateDate(date) {
     const minDate = new Date(todaygetFullYear(), today.getMonth().today.getDate());
     const maxDate = new Date(todaygetFullYear() + 1, today.getMonth().today.getDate());
 
-    if (date < minDate || date maxDate) {
+    if (date < minDate || date > maxDate) {
         return " Date must be btween today and one Year from Today. ";
 
 
