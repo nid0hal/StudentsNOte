@@ -28,7 +28,7 @@ function validateFullName(fullName) {
 
     // If the format of the full name.
     if (!/^[a-zA-Z ]+$/.test(fullName)) {
-        return " Full name must contain only letters and spaces."
+        return " Full name must contain only letters and spaces.";
     }
 
     // If the Full name passes all of the validation rules, return null.
@@ -92,6 +92,8 @@ function validateMarksText(text) {
 }
 
 
+
+
 //function caluler
 
 submit.addEventListener('click', (event) => {
@@ -126,12 +128,11 @@ submit.addEventListener('click', (event) => {
         return
     }
 
-    //calculer le resultat
+
+});
 
 
 
-
-})
 
 
 //  JS SELECTOR : 
